@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+
+Error celda: I10 Hoja: Hoja1
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+Error celda: I13 Hoja: Hoja1
+Error celda: I14 Hoja: Hoja1
+Error celda: I15 Hoja: Hoja1
+Error celda: I16 Hoja: Hoja1
+Error celda: I17 Hoja: Hoja1
+Error celda: I18 Hoja: Hoja1
+Error celda: I19 Hoja: Hoja1
+
+
+Error celda: I14 Hoja: Hoja1
+Error celda: I15 Hoja: Hoja1
+Error celda: I16 Hoja: Hoja1
+Error celda: I17 Hoja: Hoja1
+Error celda: I19 Hoja: Hoja1
+
+Error celda: I14 Hoja: Hoja1
+Error celda: I15 Hoja: Hoja1
+Error celda: I16 Hoja: Hoja1
+Error celda: I17 Hoja: Hoja1
+Error celda: I19 Hoja: Hoja1
+
+Error en la configuración de la columna
+Error celda: I14 Hoja: Hoja1
+Error celda: I15 Hoja: Hoja1
+Error celda: I16 Hoja: Hoja1
+Error celda: I17 Hoja: Hoja1
+Error celda: I19 Hoja: Hoja1
+
+Error en la configuración de la columna
+Error celda: I10 Hoja: Hoja1
+Error celda: I11 Hoja: Hoja1
+Error celda: I12 Hoja: Hoja1
+Error celda: I13 Hoja: Hoja1
+Error celda: I14 Hoja: Hoja1
+
+Error en la configuración de la columna
+
+
+Error en la configuración de la columna
+
+Error en la configuración de la columna
+
+
+
+
+
+
+
+Error celda: E10 Hoja: Hoja1
+Error celda: E11 Hoja: Hoja1
+Error celda: E12 Hoja: Hoja1
+Error celda: E13 Hoja: Hoja1
+Error celda: E14 Hoja: Hoja1
+
+Error celda: E10 Hoja: Hoja1
+Error celda: E11 Hoja: Hoja1
+Error celda: E12 Hoja: Hoja1
+Error celda: E13 Hoja: Hoja1
+Error celda: E14 Hoja: Hoja1
+
