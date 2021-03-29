@@ -1,4 +1,4 @@
-N1$centro%under;C2$centro;C3%under;C4;C5
+C1$centro%under#green;C2$derecha%Strikethrough#blue;C3%boldUnder;C4$izquierda;C5#red
 Breitenberg Inc;Jessika.Johnston@hotmail.com;Rathfurt;1-265-236-9181;Palau
 Block - Prosacco;Belle.Abbott@yahoo.com;Zachariahbury;270-965-0659;Lebanon
 Gibson - Terry;Ena.Boyer57@hotmail.com;Purdytown;799.804.7712;Zambia

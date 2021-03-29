@@ -28,7 +28,7 @@ namespace ExcelCsharp
         {
             InitializeComponent();
         }
-
+        
         string obtenerFormato(string letra)
         {
             string salida = "";
@@ -105,15 +105,12 @@ namespace ExcelCsharp
             File.WriteAllText(obtenerRuta(dbtxt), createText);
         }
 
-        string [] sal(string columna)
+        string [] Obtenertipos(string columna)
         {
-            string[] salida;
             List<string> tipo = new List<string>();
 
             var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
-
-            //string[] split = columna.Split(config);
-
+            
             for(int i = 0; i < columna.Length; i++)
             {
               
@@ -149,12 +146,12 @@ namespace ExcelCsharp
                     int col = currentFind.Column;
                     int fil = currentFind.Row;
 
-                    var obtenerColorColumna = "";//new string(columnas[i].Split(config)[1].ToArray());
-                    var obtenerAlignColumna = "";//new string(columnas[i].Split(config)[2].ToArray());
-                    var obtenerFontColumna = "";//new string(columnas[i].Split(config)[3].ToArray());
+                    var obtenerColorColumna = "";
+                    var obtenerAlignColumna = "";
+                    var obtenerFontColumna = "";
 
                     var obtenerTipoColumna = new string(columnas[i].Split(config)[0].Where(Char.IsLetter).ToArray());
-                    string[] tipos = sal(columnas[i]);
+                    string[] tipos = Obtenertipos(columnas[i]);
 
                     for (int j = 0; j < tipos.Length; j++)
                     {
@@ -199,7 +196,7 @@ namespace ExcelCsharp
            
             using (StreamWriter outfile = new StreamWriter(obtenerRuta("errores.txt"), true))
             {
-                outfile.WriteLine(txto);
+                outfile.WriteLine(DateTime.Now + " " + "\n" + txto);
             }
         }
 
@@ -309,25 +306,23 @@ namespace ExcelCsharp
             }
         }
 
-        bool comprobarFilaPrincipal(string[] filaPrincipal)
+        string[] comprobarFilaPrincipal(string filaPrincipal)
         {
-            bool salida = false;
-           
-            for(int i = 0; i < config.Length; i++)
+            string esValido = "1";
+            string columna = "";
+
+            var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
+
+            for (int i = 0; i < filaPrincipal.Length; i++)
             {
-                salida = false;
-               
-                for(int j = 0; j < filaPrincipal.Length && !salida; j++)
+                if ((filaPrincipal[i].ToString() != ";" && !regexItem.IsMatch(filaPrincipal[i].ToString())) && !filaPrincipal[i].ToString().Any(item => config.Any(item1 => item == item1)))
                 {
-                    char[] unaColumna = filaPrincipal[j].ToCharArray();
-                    if (unaColumna[j] == config[i] && !Char.IsLetter(unaColumna[j]) && !Char.IsNumber(unaColumna[j]))
-                    {
-                        salida = true;
-                    }
+                    columna += filaPrincipal[i].ToString() + " ";
+                    esValido = "0";
                 }
             }
 
-            return salida;
+            return new string[]{ esValido, columna };
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -371,16 +366,13 @@ namespace ExcelCsharp
                 List<string> filas = db.Where((item, indexer) => indexer > 0).ToList();
 
                 //obtengo la primera fila 
-                //var columbasExcel1= db[0].ToString().Split(';').Where((item, index) => item.Contains(config.ToString())).ToString();
                 string[] columbasExcel = db[0].ToString().Split(';');
-
-
-             
                 
-                //if (!comprobarFilaPrincipal(columbasExcel))
-                //{
-                //    errores.Add("Error en la configuración de la columna");
-                //}
+                string[] comprobarFilaP = comprobarFilaPrincipal(db[0].ToString());
+                if (comprobarFilaP[0] == "0")
+                {
+                    errores.Add("Error en la configuración de la columna, estas configuraciones no existen: " + comprobarFilaP[1] + "\n" + "solo se pueden configurar con las: " + new String(config));
+                }
 
                 //recorro cada hoja
                 foreach (Microsoft.Office.Interop.Excel.Worksheet worksheet in workBook.Worksheets)
@@ -444,16 +436,19 @@ namespace ExcelCsharp
                             worksheet.Cells[x + fil, y].NumberFormat = "";
                             worksheet.Cells[x + fil, y] = "=CountA(" + letraInicio + numeroInicio + ":" + letraInicio + numeroFinal + ")";
                          
+                            //#
                             if (coordenadas[4] != "")
                             {
                                 worksheet.get_Range(letraInicio + numeroInicio, letraInicio + numeroFinal).Interior.Color = System.Drawing.ColorTranslator.ToOle(Color.FromName(coordenadas[4]));
                             }
 
+                            //$
                             if(coordenadas[5] != "")
                             {
                                 worksheet.get_Range(letraInicio + numeroInicio, letraInicio + numeroFinal).Cells.HorizontalAlignment = Alinear(coordenadas[5]);
                             }
 
+                            //%
                             if (coordenadas[6] != "")
                             {
                                 obtenerFont(worksheet, new string[] { letraInicio + numeroInicio, letraInicio + numeroFinal }, coordenadas[6]);
@@ -481,6 +476,9 @@ namespace ExcelCsharp
 
                 //listo los errores de las celdas y las muestro
                 MostrarErrores(errores.Distinct().ToList());
+
+                MessageBox.Show("Volcado terminado");
+
             }catch(Exception ex)
             {
                 MessageBox.Show("Error: " +ex.Message.ToString());
@@ -512,12 +510,6 @@ namespace ExcelCsharp
         private void button4_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(obtenerRuta(dbtxt));
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            string[] ss = sal("C1#azul&verde");
-
         }
     }
 }

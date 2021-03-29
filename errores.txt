@@ -1,111 +1,76 @@
-
-
-
-
-
-
-
-
-
-
-
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-
-Error celda: I10 Hoja: Hoja1
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-Error celda: I13 Hoja: Hoja1
-Error celda: I14 Hoja: Hoja1
-Error celda: I15 Hoja: Hoja1
-Error celda: I16 Hoja: Hoja1
-Error celda: I17 Hoja: Hoja1
-Error celda: I18 Hoja: Hoja1
-Error celda: I19 Hoja: Hoja1
-
-
-Error celda: I14 Hoja: Hoja1
-Error celda: I15 Hoja: Hoja1
-Error celda: I16 Hoja: Hoja1
-Error celda: I17 Hoja: Hoja1
-Error celda: I19 Hoja: Hoja1
-
-Error celda: I14 Hoja: Hoja1
-Error celda: I15 Hoja: Hoja1
-Error celda: I16 Hoja: Hoja1
-Error celda: I17 Hoja: Hoja1
-Error celda: I19 Hoja: Hoja1
-
-Error en la configuración de la columna
-Error celda: I14 Hoja: Hoja1
-Error celda: I15 Hoja: Hoja1
-Error celda: I16 Hoja: Hoja1
-Error celda: I17 Hoja: Hoja1
-Error celda: I19 Hoja: Hoja1
-
-Error en la configuración de la columna
-Error celda: I10 Hoja: Hoja1
-Error celda: I11 Hoja: Hoja1
-Error celda: I12 Hoja: Hoja1
-Error celda: I13 Hoja: Hoja1
-Error celda: I14 Hoja: Hoja1
-
-Error en la configuración de la columna
-
-
-Error en la configuración de la columna
-
-Error en la configuración de la columna
-
-
-
-
-
-
-
+29/03/2021 9:40:49 
+Error en la configuración de la columna, estas configuraciones no existen: / = 
+solo se pueden configurar con las: System.Char[]
 Error celda: E10 Hoja: Hoja1
 Error celda: E11 Hoja: Hoja1
 Error celda: E12 Hoja: Hoja1
 Error celda: E13 Hoja: Hoja1
 Error celda: E14 Hoja: Hoja1
+Error celda: D9 Hoja: Hoja2
+Error celda: D10 Hoja: Hoja2
+Error celda: D11 Hoja: Hoja2
+Error celda: D12 Hoja: Hoja2
+Error celda: D13 Hoja: Hoja2
 
+29/03/2021 9:42:02 
+Error en la configuración de la columna, estas configuraciones no existen: / = 
+solo se pueden configurar con las: #$%&
 Error celda: E10 Hoja: Hoja1
 Error celda: E11 Hoja: Hoja1
 Error celda: E12 Hoja: Hoja1
 Error celda: E13 Hoja: Hoja1
 Error celda: E14 Hoja: Hoja1
+Error celda: D9 Hoja: Hoja2
+Error celda: D10 Hoja: Hoja2
+Error celda: D11 Hoja: Hoja2
+Error celda: D12 Hoja: Hoja2
+Error celda: D13 Hoja: Hoja2
+
+29/03/2021 9:43:30 
+Error en la configuración de la columna, estas configuraciones no existen: / = 
+solo se pueden configurar con las: System.Linq.Enumerable+WhereSelectEnumerableIterator`2[System.Char,System.String]
+Error celda: E10 Hoja: Hoja1
+Error celda: E11 Hoja: Hoja1
+Error celda: E12 Hoja: Hoja1
+Error celda: E13 Hoja: Hoja1
+Error celda: E14 Hoja: Hoja1
+Error celda: D9 Hoja: Hoja2
+Error celda: D10 Hoja: Hoja2
+Error celda: D11 Hoja: Hoja2
+Error celda: D12 Hoja: Hoja2
+Error celda: D13 Hoja: Hoja2
+
+29/03/2021 9:48:21 
+Error celda: E10 Hoja: Hoja1
+Error celda: E11 Hoja: Hoja1
+Error celda: E12 Hoja: Hoja1
+Error celda: E13 Hoja: Hoja1
+Error celda: E14 Hoja: Hoja1
+Error celda: D9 Hoja: Hoja2
+Error celda: D10 Hoja: Hoja2
+Error celda: D11 Hoja: Hoja2
+Error celda: D12 Hoja: Hoja2
+Error celda: D13 Hoja: Hoja2
+
+29/03/2021 9:50:02 
+Error celda: E10 Hoja: Hoja1
+Error celda: E11 Hoja: Hoja1
+Error celda: E12 Hoja: Hoja1
+Error celda: E13 Hoja: Hoja1
+Error celda: E14 Hoja: Hoja1
+Error celda: D9 Hoja: Hoja2
+Error celda: D10 Hoja: Hoja2
+Error celda: D11 Hoja: Hoja2
+Error celda: D12 Hoja: Hoja2
+Error celda: D13 Hoja: Hoja2
+
+29/03/2021 9:50:42 
+
+29/03/2021 9:51:34 
+
+29/03/2021 9:51:57 
+
+29/03/2021 9:53:28 
+
+29/03/2021 9:53:58 
 
